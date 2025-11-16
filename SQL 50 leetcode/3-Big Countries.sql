@@ -1,1 +1,1 @@
-select unique_id , name from Employees e left join EmployeeUNI eu on e.id = eu.id
+select name, population, area from world where area >= 3000000 or population >= 25000000   
